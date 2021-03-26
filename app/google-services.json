@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "972884105717",
+    "firebase_url": "https://driverapp-bs98-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "driverapp-bs98",
+    "storage_bucket": "driverapp-bs98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972884105717:android:e0aed93e1ce013cb7aa8bc",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972884105717-j87hfnk5hg0li7hfj74icl01f7r6uu6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5nw0fIIJcpvR5wSb4kfB6s-YwExvnt74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972884105717-j87hfnk5hg0li7hfj74icl01f7r6uu6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

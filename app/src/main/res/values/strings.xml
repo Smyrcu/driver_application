@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Email</string>
+    <string name="has_o">Hasło</string>
+    <string name="zapami_taj_has_o">Zapamiętaj hasło</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="todo">TODO</string>
+    <string name="input_email">Wpisz email</string>
+    <string name="input_password">Wpisz hasło</string>
+    <string name="title_activity_logged_in_main_page">LoggedInMainPage</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="my_account">My account</string>
+    <string name="add_photo">Add photo</string>
+    <string name="dyspo">Dyspo</string>
+    <string name="schedule">Schedule</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="logout">Logout</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="upload">Upload</string>
+    <string name="issue">Issue</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/my_account"
+            android:icon="@drawable/ic_account"
+            android:title="@string/my_account" />
+
+        <item
+            android:id="@+id/add_photo"
+            android:icon="@drawable/ic_add_photo"
+            android:title="@string/add_photo" />
+
+        <item
+            android:id="@+id/dyspo"
+            android:icon="@drawable/ic_dyspo"
+            android:title="@string/dyspo" />
+
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="@string/schedule" />
+
+        <item
+            android:id="@+id/issue"
+            android:icon="@drawable/ic_issue"
+            android:title="@string/issue"/>
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout"/>
+
+    </group>
+
+
+
+
+
+</menu>

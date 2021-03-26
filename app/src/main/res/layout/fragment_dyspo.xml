@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/spacing_login"
+    android:paddingTop="@dimen/spacing_login"
+    android:paddingEnd="@dimen/spacing_login"
+    android:paddingBottom="@dimen/spacing_login">
+
+    <EditText
+        android:id="@+id/ToTime"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FromText"
+        android:layout_alignEnd="@id/Date"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_above_login"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/FromTime"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ToText"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <CheckBox
+        android:id="@+id/FullDayCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full day"
+        android:layout_below="@id/ToTime"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/spacing_login"/>
+
+    <TextView
+        android:id="@+id/FromText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:layout_below="@id/Date"
+        android:layout_marginTop="@dimen/spacing_login"/>
+
+    <TextView
+        android:id="@+id/ToText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:layout_below="@id/Date"
+        android:layout_alignLeft="@id/ToTime"
+        android:layout_marginTop="@dimen/spacing_login"/>
+
+    <Button
+        android:id="@+id/SendDyspoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_below="@id/FullDayCheckBox"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/spacing_login"/>
+</RelativeLayout>
